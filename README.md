@@ -66,10 +66,11 @@ call plug#end()
   <li>8 theme-distinct <strong>base colours</strong></li>
   <li>8 standard <strong>accent colours</strong> (shared by members of the “nightsense theme family”) for syntax highlighting
     <ul>
-      <li>hues were selected at the scale of 1/12 (30°) colour wheel intervals, followed by 1/12 subinterval adjustments</li>
+      <li>hues were selected at the scale of 1/12 (30°) colour wheel intervals, then fine-tuned with 1/6 subintervals</li>
       <li>value and saturation were tuned for light backgrounds, then lowered for dark backgrounds</li>
     </ul>
   </li>
+  <li>the <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-73-head">ISO 3:1 contrast standard</a> is met by nearly all text/background combinations (exceptions being made for some transient-highlighted backgrounds, such as cursorcolumn/cursorline)</li>
 </ul>
 
 <table>
@@ -97,22 +98,22 @@ call plug#end()
       <td style="text-align: left"><img src="http://www.colorhexa.com/d4b659.png" height="24" width="42" /> <code class="highlighter-rouge">d4b659</code></td>
     </tr>
     <tr>
-      <td style="text-align: right"><img src="http://www.colorhexa.com/445075.png" height="24" width="42" /> <code class="highlighter-rouge">445075</code> </td>
+      <td style="text-align: right"><img src="http://www.colorhexa.com/616675.png" height="24" width="42" /> <code class="highlighter-rouge">616675</code> </td>
       <td style="text-align: center"><img src="http://www.colorhexa.com/289e31.png" height="24" width="42" /> <code class="highlighter-rouge">289e31</code> </td>
       <td style="text-align: left"><img src="http://www.colorhexa.com/5c8a60.png" height="24" width="42" /> <code class="highlighter-rouge">5c8a60</code></td>
     </tr>
     <tr>
-      <td style="text-align: right"><img src="http://www.colorhexa.com/566594.png" height="24" width="42" /> <code class="highlighter-rouge">566594</code> </td>
+      <td style="text-align: right"><img src="http://www.colorhexa.com/7b8194.png" height="24" width="42" /> <code class="highlighter-rouge">7b8194</code> </td>
       <td style="text-align: center"><img src="http://www.colorhexa.com/289e8a.png" height="24" width="42" /> <code class="highlighter-rouge">289e8a</code> </td>
       <td style="text-align: left"><img src="http://www.colorhexa.com/508a80.png" height="24" width="42" /> <code class="highlighter-rouge">508a80</code></td>
     </tr>
     <tr>
-      <td style="text-align: right"><img src="http://www.colorhexa.com/8090bf.png" height="24" width="42" /> <code class="highlighter-rouge">8090bf</code> </td>
+      <td style="text-align: right"><img src="http://www.colorhexa.com/9fa7bf.png" height="24" width="42" /> <code class="highlighter-rouge">9fa7bf</code> </td>
       <td style="text-align: center"><img src="http://www.colorhexa.com/3083bf.png" height="24" width="42" /> <code class="highlighter-rouge">3083bf</code> </td>
       <td style="text-align: left"><img src="http://www.colorhexa.com/5688ab.png" height="24" width="42" /> <code class="highlighter-rouge">5688ab</code></td>
     </tr>
     <tr>
-      <td style="text-align: right"><img src="http://www.colorhexa.com/bac3e0.png" height="24" width="42" /> <code class="highlighter-rouge">bac3e0</code> </td>
+      <td style="text-align: right"><img src="http://www.colorhexa.com/bac4e0.png" height="24" width="42" /> <code class="highlighter-rouge">bac4e0</code> </td>
       <td style="text-align: center"><img src="http://www.colorhexa.com/8f69b5.png" height="24" width="42" /> <code class="highlighter-rouge">8f69b5</code> </td>
       <td style="text-align: left"><img src="http://www.colorhexa.com/8b779e.png" height="24" width="42" /> <code class="highlighter-rouge">8b779e</code></td>
     </tr>
