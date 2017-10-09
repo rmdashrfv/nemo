@@ -70,7 +70,6 @@ endif
 if !has('gui_running')
   execute 'silent !/bin/sh $HOME/.nightshell/nemo-dark'
   autocmd CursorMoved * execute 'if !exists("colors_name") |
-        \ let colors_name = "nemo-dark" |
         \ colorscheme nemo-dark | endif'
 endif
 
