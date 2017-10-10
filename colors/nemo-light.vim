@@ -18,7 +18,7 @@ let s:g6 = '252c40'
 let s:g7 = '161b2b'
 let s:g8 = 'eb3b3b'
 let s:g9 = 'e07426'
-let s:gA = 'ebbf3b'
+let s:gA = 'e0b638'
 let s:gB = '289e31'
 let s:gC = '1b9e88'
 let s:gD = '3083bf'
@@ -48,7 +48,7 @@ if has('nvim')
   let g:terminal_color_0 =  '#f5f7ff'
   let g:terminal_color_1 =  '#eb3b3b'
   let g:terminal_color_2 =  '#289e31'
-  let g:terminal_color_3 =  '#ebbf3b'
+  let g:terminal_color_3 =  '#e0b638'
   let g:terminal_color_4 =  '#3083bf'
   let g:terminal_color_5 =  '#885bb5'
   let g:terminal_color_6 =  '#1b9e88'
@@ -98,11 +98,11 @@ endfun
 "=== BASIC HIGHLIGHTING =======================================================
 
 " cursor + status line + selected tab
-cal <sid>h('Cursor'           , s:g5 , s:gA , s:t5 , s:tA , 'none'      , ''  )
-cal <sid>h('StatusLine'       , s:g5 , s:gA , s:t5 , s:tA , 'none'      , ''  )
-cal <sid>h('StatusLineTerm'   , s:g5 , s:gA , s:t5 , s:tA , 'none'      , ''  )
-cal <sid>h('TabLineSel'       , s:g5 , s:gA , s:t5 , s:tA , 'none'      , ''  )
-cal <sid>h('TermCursor'       , s:g5 , s:gA , s:t5 , s:tA , 'none'      , ''  )
+cal <sid>h('Cursor'           , s:g0 , s:g4 , s:t0 , s:t4 , 'none'      , ''  )
+cal <sid>h('StatusLine'       , s:g0 , s:g4 , s:t0 , s:t4 , 'none'      , ''  )
+cal <sid>h('StatusLineTerm'   , s:g0 , s:g4 , s:t0 , s:t4 , 'none'      , ''  )
+cal <sid>h('TabLineSel'       , s:g0 , s:g4 , s:t0 , s:t4 , 'none'      , ''  )
+cal <sid>h('TermCursor'       , s:g0 , s:g4 , s:t0 , s:t4 , 'none'      , ''  )
 
 " line numbers
 cal <sid>h('CursorLineNr'     , s:g0 , s:g3 , s:t0 , s:t3 , 'none'      , ''  )
