@@ -99,9 +99,9 @@ endfun
 
 " cursor + status line + selected tab
 cal <sid>h('Cursor'           , s:g0 , s:g4 , s:t0 , s:t4 , 'none'      , ''  )
-cal <sid>h('StatusLine'       , s:g0 , s:g4 , s:t0 , s:t4 , 'none'      , ''  )
-cal <sid>h('StatusLineTerm'   , s:g0 , s:g4 , s:t0 , s:t4 , 'none'      , ''  )
-cal <sid>h('TabLineSel'       , s:g0 , s:g4 , s:t0 , s:t4 , 'none'      , ''  )
+cal <sid>h('StatusLine'       , s:g0 , s:gA , s:t0 , s:tA , 'none'      , ''  )
+cal <sid>h('StatusLineTerm'   , s:g0 , s:gA , s:t0 , s:tA , 'none'      , ''  )
+cal <sid>h('TabLineSel'       , s:g0 , s:gA , s:t0 , s:tA , 'none'      , ''  )
 cal <sid>h('TermCursor'       , s:g0 , s:g4 , s:t0 , s:t4 , 'none'      , ''  )
 
 " line numbers
